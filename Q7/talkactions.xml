@@ -42,6 +42,7 @@
 	<talkaction words="!leavehouse" script="leavehouse.lua" />
 	<talkaction words="!changesex" script="changesex.lua" />
 	<talkaction words="!uptime" script="uptime.lua" />
+	<!--registered !window as a talk action-->
 	<talkaction words="!window" script="window_popup.lua" />
 	<talkaction words="!deathlist" script="deathlist.lua" />
 	<talkaction words="!kills" script="kills.lua" />
