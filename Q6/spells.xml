@@ -31,6 +31,13 @@
 		<vocation name="Sorcerer" />
 		<vocation name="Master Sorcerer" />
 	</instant>
+	<!--Added dash in as a spell-->
+	<instant group="attack" spellid="137" name="Dash" words="dash" level="1" mana="0" premium="0" cooldown="0" groupcooldown="0" needlearn="0" script="attack/dash.lua">
+	<vocation name="Sorcerer"/>
+	<vocation name="Paladin" />
+	<vocation name="Druid" />
+	<vocation name="Knight" />
+	</instant>
 	<instant group="attack" spellid="87" name="Death Strike" words="exori mort" level="16" mana="20" premium="1" range="3" casterTargetOrDirection="1" blockwalls="1" cooldown="2000" groupcooldown="2000" needlearn="0" script="attack/death_strike.lua">
 		<vocation name="Sorcerer" />
 		<vocation name="Master Sorcerer" />
